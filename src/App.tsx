@@ -1,6 +1,7 @@
 import React from "react";
 // import reactLogo from "./assets/react.svg";
 import "./App.css";
+import AnimatedBg from "./components/AnimatedBg";
 
 function App() {
   React.useEffect(() => {
@@ -17,7 +18,9 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen relative"></div>
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen relative">
+      <AnimatedBg />
+    </div>
   );
 }
 
