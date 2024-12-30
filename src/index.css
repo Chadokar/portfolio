@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  transition: ease-in-out 0.13s all;
-}
-
 :root {
   color-scheme: dark;
   --gradient-rotation: 0deg;
@@ -21,7 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  transition: ease-in-out 0.3s all;
 }
 
 html {

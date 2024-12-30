@@ -1,11 +1,11 @@
 import React from "react";
 // import reactLogo from "./assets/react.svg";
 import { motion } from "framer-motion";
-import "./App.css";
 import AnimatedBg from "./components/AnimatedBg";
 import { Navbar } from "./components/Navbar";
 import { Section } from "./components/Section";
 import { Code2Icon } from "lucide-react";
+import { WorkExperience } from "./components/WorkExperience";
 
 function App() {
   React.useEffect(() => {
@@ -46,6 +46,10 @@ function App() {
           <h1 className="text-6xl font-bold mb-4">Shubham Chadokar</h1>
           <p className="text-2xl text-gray-300">Full Stack Developer</p>
         </motion.div>
+      </Section>
+
+      <Section id="experience" className="bg-black/10">
+        <WorkExperience />
       </Section>
     </div>
   );
