@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 function Contact(): JSX.Element {
   return (
