@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
 import { cn } from "../lib/utils";
 
 interface SectionProps {
@@ -9,10 +9,10 @@ interface SectionProps {
 }
 
 export function Section({ children, className, id }: SectionProps) {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+  // const [ref, inView] = useInView({
+  //   triggerOnce: true,
+  //   threshold: 0.1,
+  // });
 
   return (
     <motion.section

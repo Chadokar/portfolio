@@ -77,7 +77,7 @@ export function About() {
               Skills
             </h3>
 
-            {skills.map((category, index) => (
+            {skills.map((category) => (
               <motion.div
                 key={category.category}
                 // initial={{ opacity: 0, y: 20 }}
