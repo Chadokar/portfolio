@@ -6,9 +6,9 @@ function Contact(): JSX.Element {
     <div className="max-w-4xl mx-auto text-center">
       <h2 className="text-4xl font-bold mb-12">Get In Touch</h2>
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
+        // initial={{ opacity: 0, y: 50 }}
+        // whileInView={{ opacity: 1, y: 0 }}
+        // transition={{ duration: 0.5 }}
         className="space-y-8"
       >
         <p className="text-xl text-gray-300">

@@ -40,9 +40,9 @@ export function About() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid md:grid-cols-1 gap-12 items-center">
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
+            // initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
+            // transition={{ duration: 0.5 }}
             className="space-y-6"
           >
             <h2 className="text-4xl font-bold text-blue-400">
@@ -68,9 +68,9 @@ export function About() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
+            // initial={{ opacity: 0, x: 50 }}
+            // whileInView={{ opacity: 1, x: 0 }}
+            // transition={{ duration: 0.5 }}
             className="space-y-8"
           >
             <h3 className="text-3xl font-bold text-center mb-8 text-blue-400">
@@ -80,9 +80,9 @@ export function About() {
             {skills.map((category, index) => (
               <motion.div
                 key={category.category}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                // initial={{ opacity: 0, y: 20 }}
+                // whileInView={{ opacity: 1, y: 0 }}
+                // transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm"
               >
                 <h4 className="text-xl font-semibold mb-4 text-blue-300">

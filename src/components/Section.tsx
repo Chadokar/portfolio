@@ -16,10 +16,10 @@ export function Section({ children, className, id }: SectionProps) {
 
   return (
     <motion.section
-      ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-      transition={{ duration: 0.8 }}
+      // ref={ref}
+      // initial={{ opacity: 0, y: 50 }}
+      // animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+      // transition={{ duration: 0.8 }}
       className={cn("min-h-screen py-20 px-4 sm:px-6 lg:px-8", className)}
       id={id}
     >
