@@ -26,7 +26,7 @@ export function Navbar() {
             href="#home"
             className="flex text-xl pl-2 font-bold hover:text-[1.4rem]"
           >
-            Portfolio
+            Shubham
           </a>
 
           {/* Desktop Navigation */}

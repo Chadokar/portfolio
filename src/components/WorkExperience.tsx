@@ -14,13 +14,14 @@ const experiences = [
     company: "Prandit",
     period: "Nov 2022 - Feb 2023",
     description:
-      "Developed and maintained full-stack web applications, and deployed them to AWS EC2 instances with CI/CD pipelines",
+      "Developed and maintained full-stack web applications using React, Redux and Express js, and deployed them to AWS EC2 instances with CI/CD pipelines",
   },
   {
     title: "Frontend Developer",
     company: "Stealth Mode Startup",
     period: "Aug 2022 - Oct 2022",
-    description: "Built responsive web interfaces and implemented RESTful APIs",
+    description:
+      "Built responsive web interfaces and integrated RESTful APIs using React and Redux.",
   },
 ];
 

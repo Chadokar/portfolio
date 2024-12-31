@@ -6,6 +6,9 @@ import { Navbar } from "./components/Navbar";
 import { Section } from "./components/Section";
 import { Code2Icon } from "lucide-react";
 import { WorkExperience } from "./components/WorkExperience";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import { About } from "./components/About";
 
 function App() {
   React.useEffect(() => {
@@ -48,8 +51,40 @@ function App() {
         </motion.div>
       </Section>
 
+      <Section id="about" className="bg-black/20">
+        {/* <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
+          <div className="space-y-6 text-lg text-gray-300">
+            <p>
+              I'm a passionate Fullstack developer with experience in building
+              web applications. My journey in tech started with a curiosity
+              about how things work on the internet, and it has evolved into a
+              career where I get to build those things myself.
+            </p>
+            <p>
+              I specialize in full-stack development using modern technologies
+              like React, Node.js, Express.js, JavaScript, TypeScript and
+              deployment services. I'm particularly interested in creating
+              performant, scalable applications that solve real-world problems.
+            </p>
+            <p>
+              When I'm not coding, you can find me contributing to open-source
+              projects, writing technical blog posts, or exploring new
+              technologies.
+            </p>
+          </div>
+        </div> */}
+        <About />
+      </Section>
+
       <Section id="experience" className="bg-black/10">
         <WorkExperience />
+      </Section>
+      <Section id="projects" className="bg-black/20">
+        <Projects />
+      </Section>
+      <Section id="contact" className="bg-black/10">
+        <Contact />
       </Section>
     </div>
   );
