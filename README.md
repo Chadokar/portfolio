@@ -1,4 +1,4 @@
-# 3D Animated Portfolio
+# Portfolio
 
 A modern, interactive portfolio website built with React, featuring 3D animations, smooth scrolling, and responsive design.
 
