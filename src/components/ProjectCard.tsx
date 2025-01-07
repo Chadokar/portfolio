@@ -51,6 +51,7 @@ export function ProjectCard({
             <motion.a
               href={github}
               className="text-gray-400 hover:text-white transition-colors"
+              target="_blank"
               whileHover={{
                 scale: 1.1,
                 rotate: [15, -15],
