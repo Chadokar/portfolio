@@ -3,14 +3,14 @@ import { ProjectCard } from "./ProjectCard";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce website",
+    title: "Chadgit",
+    description: "This is my own version control system using typescript",
     image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-    github: "#",
-    hover: "",
-    live: "#",
-    tags: ["React", "Node.js", "MongoDB"],
+      // "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+      "./chadgit.gif",
+    github: "https://github.com/Chadokar/chadgit",
+    live: "https://github.com/Chadokar/chadgit",
+    tags: ["TypeScript", "Node.js", "CLI", "Tree"],
   },
   {
     title: "PDFChatBot",
