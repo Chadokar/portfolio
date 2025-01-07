@@ -16,7 +16,8 @@ const projects = [
     title: "PDFChatBot",
     description: "Real-time chat application with AI-powered responses",
     image:
-      "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&q=80",
+      // "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&q=80",
+      "./pdf chatbot.gif",
     github: "https://github.com/Chadokar/ChatbotPDF",
     live: "https://docs.google.com/document/d/1KGA15VUscxcSkF3qevS2hXMtH7uZLeBqX5iJciMHRAE/edit?usp=sharing",
     tags: ["React", "FastAPI", "RAG", "LangChain", "Docker"],
@@ -25,7 +26,8 @@ const projects = [
     title: "Portfolio Website",
     description: "3D animated portfolio built with React and Three.js",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      // "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "/image.png",
     github: "https://github.com/Chadokar/portfolio",
     live: "https://shubham-chadokar.vercel.app/",
     tags: ["React", "gsap", "Framer Motion"],
