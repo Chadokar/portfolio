@@ -10,7 +10,6 @@ import {
 import {
   SiTypescript,
   SiCplusplus,
-  SiFlask,
   SiNextdotjs,
   SiReact,
   SiRedux,
@@ -18,6 +17,7 @@ import {
   SiWebrtc,
   SiNodedotjs,
   SiExpress,
+  SiFastapi,
 } from "react-icons/si";
 // import { FaAws } from "react-icons/fa";
 // import { VscGitBranch } from "react-icons/vsc";
@@ -70,7 +70,7 @@ export const skills: SkillCategory[] = [
       { icon: <SocketIOIcon />, name: "WebSocket" },
       { icon: <SiWebrtc className="w-8 h-8" />, name: "WebRTC" },
       { icon: <SiGraphql className="w-8 h-8" />, name: "GraphQL" },
-      { icon: <SiFlask className="w-8 h-8" />, name: "Flask" },
+      { icon: <SiFastapi className="w-8 h-8" />, name: "FastAPI" },
     ],
   },
   {
