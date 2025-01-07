@@ -7,7 +7,8 @@ const experiences = [
     company: "Rhombuz",
     period: "May 23 - Aug 23",
     description:
-      "Built a scalable platform using React, Redux Toolkit, and React Query for optimized state management and API integration; implemented advanced search and interactive D3.js visualizations.",
+      "Developed a scalable web platform leveraging React, Redux Toolkit, and React Query for efficient state management and seamless API integration. Implemented advanced search functionality and interactive data visualizations using D3.js for enhanced user experience and data insights.",
+    tags: ["React", "Redux", "D3.js", "React Query", "React Hooks"],
   },
   {
     title: "Full Stack Developer",
@@ -15,6 +16,15 @@ const experiences = [
     period: "Nov 2022 - Feb 2023",
     description:
       "Developed and maintained full-stack web applications using React, Redux and Express js, and deployed them to AWS EC2 instances with CI/CD pipelines",
+    tags: [
+      "React",
+      "Redux",
+      "Express.js",
+      "AWS",
+      "CI/CD",
+      "Restful API",
+      "PostgreSQL",
+    ],
   },
   {
     title: "Frontend Developer",
@@ -22,6 +32,7 @@ const experiences = [
     period: "Aug 2022 - Oct 2022",
     description:
       "Built responsive web interfaces and integrated RESTful APIs using React and Redux.",
+    tags: ["React", "Redux", "RESTful API"],
   },
 ];
 

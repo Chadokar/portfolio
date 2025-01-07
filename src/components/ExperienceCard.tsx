@@ -7,6 +7,7 @@ interface ExperienceCardProps {
   company: string;
   period: string;
   description: string;
+  tags: string[];
 }
 
 export function ExperienceCard({
@@ -14,6 +15,7 @@ export function ExperienceCard({
   company,
   period,
   description,
+  tags,
 }: ExperienceCardProps) {
   return (
     <Card3D>
@@ -35,6 +37,16 @@ export function ExperienceCard({
           <p className="text-blue-500">{company}</p>
           <p className="text-sm text-gray-400">{period}</p>
           <p className="mt-2 text-gray-300">{description}</p>
+          <div className="flex flex-wrap gap-2 mt-4">
+            {tags.map((tag) => (
+              <span
+                key={tag}
+                className="px-4 py-1 bg-blue-500/10 rounded-full text-sm text-blue-400 transition-colors duration-300 hover:bg-blue-500/20"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </motion.div>
     </Card3D>

@@ -41,7 +41,7 @@ export function ProjectCard({
             {tags.map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-1 bg-blue-500/10 rounded-full text-sm text-blue-400 transition-colors duration-300 hover:bg-blue-500/20"
+                className="px-4 py-1 bg-blue-500/10 rounded-full text-sm text-blue-400 transition-colors duration-300 hover:bg-blue-500/20"
               >
                 {tag}
               </span>
