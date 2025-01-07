@@ -28,7 +28,7 @@ const projects = [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
     github: "https://github.com/Chadokar/portfolio",
     live: "https://shubham-chadokar.vercel.app/",
-    tags: ["React", "Three.js", "Framer Motion"],
+    tags: ["React", "gsap", "Framer Motion"],
   },
 ];
 
