@@ -13,21 +13,21 @@ const projects = [
     tags: ["React", "Node.js", "MongoDB"],
   },
   {
-    title: "AI Chat Application",
+    title: "PDFChatBot",
     description: "Real-time chat application with AI-powered responses",
     image:
       "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&q=80",
-    github: "#",
-    live: "#",
-    tags: ["React", "OpenAI", "WebSocket"],
+    github: "https://github.com/Chadokar/ChatbotPDF",
+    live: "https://github.com/Chadokar/ChatbotPDF",
+    tags: ["React", "FastAPI", "RAG", "LangChain"],
   },
   {
     title: "Portfolio Website",
     description: "3D animated portfolio built with React and Three.js",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    github: "#",
-    live: "#",
+    github: "https://github.com/Chadokar/portfolio",
+    live: "https://shubham-chadokar.vercel.app/",
     tags: ["React", "Three.js", "Framer Motion"],
   },
 ];
