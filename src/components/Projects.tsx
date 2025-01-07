@@ -19,7 +19,7 @@ const projects = [
       "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&q=80",
     github: "https://github.com/Chadokar/ChatbotPDF",
     live: "https://github.com/Chadokar/ChatbotPDF",
-    tags: ["React", "FastAPI", "RAG", "LangChain"],
+    tags: ["React", "FastAPI", "RAG", "LangChain", "Docker"],
   },
   {
     title: "Portfolio Website",
