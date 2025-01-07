@@ -18,7 +18,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&q=80",
     github: "https://github.com/Chadokar/ChatbotPDF",
-    live: "https://github.com/Chadokar/ChatbotPDF",
+    live: "https://docs.google.com/document/d/1KGA15VUscxcSkF3qevS2hXMtH7uZLeBqX5iJciMHRAE/edit?usp=sharing",
     tags: ["React", "FastAPI", "RAG", "LangChain", "Docker"],
   },
   {
