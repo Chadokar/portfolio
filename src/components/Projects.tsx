@@ -38,8 +38,8 @@ const projects = [
     image:
       // "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
       "/UTbmanager.png",
-    github: "https://github.com/Chadokar/portfolio",
-    live: "https://shubham-chadokar.vercel.app/",
+    github: "https://github.com/Chadokar/ytbmage",
+    live: "https://ytmage.onrender.com/",
     tags: [
       "React",
       "Express",
