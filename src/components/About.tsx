@@ -49,11 +49,11 @@ export function About() {
               Hello! I'm Shubham Chadokar
             </h2>
             <p className="text-xl text-gray-300">
-              I'm a final year student at IIT KHARAGPUR and passionate Fullstack
-              developer with experience in building web applications. My journey
-              in tech started with a curiosity about how things work on the
-              internet, and it has evolved into a career where I get to build
-              those things myself.
+              "I'm a final-year student at IIT Kharagpur and a passionate
+              full-stack developer with experience in building web applications.
+              My journey in tech began with a curiosity about how things work on
+              the internet, and it has since evolved into a career where I get
+              to build those things myself."
             </p>
             <p className="text-xl text-gray-300">
               I specialize in full-stack development using modern technologies
