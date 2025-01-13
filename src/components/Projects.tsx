@@ -32,6 +32,23 @@ const projects = [
     live: "https://shubham-chadokar.vercel.app/",
     tags: ["React", "gsap", "Framer Motion"],
   },
+  {
+    title: "UTbmanager",
+    description: "Platform for YouTube creators to manage their videos",
+    image:
+      // "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "/UTbmanager.png",
+    github: "https://github.com/Chadokar/portfolio",
+    live: "https://shubham-chadokar.vercel.app/",
+    tags: [
+      "React",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "Knex",
+      "Youtube API",
+    ],
+  },
 ];
 
 function Projects(): React.ReactElement {
