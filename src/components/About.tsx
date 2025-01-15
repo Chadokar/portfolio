@@ -49,16 +49,16 @@ export function About() {
               Hello! I'm Shubham Chadokar
             </h2>
             <p className="text-xl text-gray-300">
-              "I'm a final-year student at IIT Kharagpur and a passionate
+              I'm a final-year student at IIT Kharagpur and a passionate
               full-stack developer with experience in building web applications.
               My journey in tech began with a curiosity about how things work on
               the internet, and it has since evolved into a career where I get
-              to build those things myself."
+              to build those things myself.
             </p>
             <p className="text-xl text-gray-300">
               I specialize in full-stack development using modern technologies
-              like React, Node.js, Express.js, JavaScript, TypeScript and
-              deployment services. I'm particularly interested in creating
+              like React, Node.js, Express.js, JavaScript, TypeScript, FastAPI
+              and deployment services. I'm particularly interested in creating
               performant, scalable applications that solve real-world problems.
             </p>
             <p className="text-xl text-gray-300">
