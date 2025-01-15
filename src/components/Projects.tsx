@@ -19,7 +19,7 @@ const projects = [
       // "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&q=80",
       "./pdf chatbot.gif",
     github: "https://github.com/Chadokar/ChatbotPDF",
-    live: "https://docs.google.com/document/d/1KGA15VUscxcSkF3qevS2hXMtH7uZLeBqX5iJciMHRAE/edit?usp=sharing",
+    live: "https://youtu.be/YcenhpSeKzs",
     tags: ["React", "FastAPI", "RAG", "LangChain", "Docker"],
   },
   {
