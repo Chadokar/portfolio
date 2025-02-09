@@ -3,6 +3,14 @@ import { ExperienceCard } from "./ExperienceCard";
 
 const experiences = [
   {
+    title: "Python Developer",
+    company: "Unsiloed AI",
+    period: "Jan 25 - Current",
+    description:
+      "Working on a building API for a machine learning model using FastAPI. Building a web application using React and Redux for the model's visualization and user interaction.",
+    tags: ["Python", "FastAPI", "React"],
+  },
+  {
     title: "Software Engineer Intern",
     company: "Rhombuz",
     period: "May 23 - Aug 23",
