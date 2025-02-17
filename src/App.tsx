@@ -47,7 +47,7 @@ function App() {
             <Code2Icon className="w-20 h-20 text-blue-500" />
           </motion.div>
           <h1 className="text-6xl font-bold mb-4">Shubham Chadokar</h1>
-          <p className="text-2xl text-gray-300">Full Stack Developer</p>
+          <p className="text-2xl text-gray-300">Software Developer</p>
         </motion.div>
       </Section>
 

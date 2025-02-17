@@ -7,8 +7,17 @@ const experiences = [
     company: "Unsiloed AI",
     period: "Jan 25 - Current",
     description:
-      "Working on a building API for a machine learning model using FastAPI. Building a web application using React and Redux for the model's visualization and user interaction.",
-    tags: ["Python", "FastAPI", "React"],
+      "I implemented Retrieval-Augmented Generation (RAG) with Chain-of-Thought (COT) using semantic search via an LLM and designed a FastAPI-based API for a vision-language model, optimizing it with multithreading and deploying it on AWS EC2.",
+    tags: [
+      "Python",
+      "FastAPI",
+      "Multithreading",
+      "RAG",
+      "COT",
+      "LLM",
+      "AWS",
+      "EC2",
+    ],
   },
   {
     title: "Software Engineer Intern",
@@ -25,11 +34,12 @@ const experiences = [
     description:
       "Developed and maintained full-stack web applications using React, Redux and Express js, and deployed them to AWS EC2 instances with CI/CD pipelines",
     tags: [
-      "React",
-      "Redux",
       "Express.js",
+      "Node js",
       "AWS",
       "CI/CD",
+      "React",
+      "Redux",
       "Restful API",
       "PostgreSQL",
     ],

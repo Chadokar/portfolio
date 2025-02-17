@@ -57,7 +57,7 @@ export function About() {
             </p>
             <p className="text-xl text-gray-300">
               I specialize in full-stack development using modern technologies
-              like React, Node.js, Express.js, JavaScript, TypeScript, FastAPI
+              like FastAPI, Node.js, Express.js, JavaScript, TypeScript, React,
               and deployment services. I'm particularly interested in creating
               performant, scalable applications that solve real-world problems.
             </p>

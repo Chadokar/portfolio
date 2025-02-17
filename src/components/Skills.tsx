@@ -44,11 +44,11 @@ export const skills: SkillCategory[] = [
   {
     category: "Core",
     items: [
+      { icon: <DiPython className="w-8 h-8" />, name: "Python" },
       { icon: <DiJavascript1 className="w-8 h-8" />, name: "JavaScript" },
       { icon: <SiTypescript className="w-8 h-8" />, name: "TypeScript" },
       { icon: <SiCplusplus className="w-8 h-8" />, name: "C/C++" },
       { icon: <DiCss3 className="w-8 h-8" />, name: "CSS3" },
-      { icon: <DiPython className="w-8 h-8" />, name: "Python" },
     ],
   },
   {
@@ -64,13 +64,13 @@ export const skills: SkillCategory[] = [
   {
     category: "Backend",
     items: [
+      { icon: <SiFastapi className="w-8 h-8" />, name: "FastAPI" },
       { icon: <SiNodedotjs className="w-8 h-8" />, name: "Node.js" },
       { icon: <SiExpress className="w-8 h-8" />, name: "Express.js" },
       { icon: <KnexIcon />, name: "Knex" },
       { icon: <SocketIOIcon />, name: "WebSocket" },
       { icon: <SiWebrtc className="w-8 h-8" />, name: "WebRTC" },
       { icon: <SiGraphql className="w-8 h-8" />, name: "GraphQL" },
-      { icon: <SiFastapi className="w-8 h-8" />, name: "FastAPI" },
     ],
   },
   {
